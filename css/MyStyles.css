@@ -3,8 +3,9 @@
 }
 
 .featured-img {
-    height: 100%;
-    background-size: cover; align-content: center;
+    height: 300px;
+    text-align: center;
+       
 }
 
 .headline {
@@ -39,7 +40,7 @@
 
 .fix{
     position: fixed;
-    background-color: deepskyblue;
+    background-color: steelblue;
     
 }
 
