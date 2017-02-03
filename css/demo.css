@@ -1,0 +1,60 @@
+html {
+    font-family: sans-serif;
+}
+
+
+
+content {
+    background-image: url('../media/tumblr_static_crumpled_paper_background_image_by_k4l3b-d5fxhl3.jpg');
+    margin-bottom: 50px;
+    
+
+    /*background: no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-bottom: 50px; */
+}
+
+.caption {
+    text-align: center;
+}
+.row{
+    margin-bottom: 15px;
+}
+
+.page-title{
+    text-align: left; 
+    width 80%;
+}
+
+.graph {
+   float: left; 
+    width: 50%;
+    /*-webkit-column-count: 2;
+    -mox-column-count: 2;
+    position: relative;
+    min-height:1px;
+    padding-right: 15px;
+    padding-left: 15px; */
+    
+}
+
+.logo {
+    float: left;
+    
+}
+
+footer {
+    text-align: center;
+}
+
+footer > p {
+    font-size: 10px;
+}
+
+.navbar {
+    text-align: right;
+    background-color: deepskyblue;
+    padding: 1px;
+    text-decoration-color: white;
+}
