@@ -7,7 +7,6 @@ h2 {
     max-width: 300px;
     color: black;
     box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-
 }
 
 .container-project img {
@@ -20,7 +19,7 @@ h2 {
     width: 300px;
     height: 175px;
     object-fit: fill;
-    align-items: center;
+    margin-top: 20%;
 }
 
 .title-project {
