@@ -21,8 +21,9 @@ h1 {
 	font-weight: normal;
 }
 
-.fa-plus {
+.fa-pencil-square-o {
 	float: right;
+	cursor: pointer;
 }
 
 

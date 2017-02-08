@@ -21,6 +21,6 @@ $("input[type='text']").keypress(function(event){
 
 });
 
-$(".fa-plus").click(function{
-	$("input[type='text'").fadeToggle();
+$(".fa-pencil-square-o").click(function(){
+	$("input[type='text'").fadeToggle()
 });
