@@ -1,6 +1,7 @@
 body {
 	font-family: Roboto;
   	background-image: url("http://michaelboyd.me/assets/web-sunrise.jpg");
+  	background-size: cover;
  }
 ul {
 	list-style: none;
