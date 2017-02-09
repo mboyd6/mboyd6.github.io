@@ -22,7 +22,7 @@
     <link href="assets/css/clean-blog.min.css" rel="stylesheet" type="text/css">
 
     <!-- My Custom CSS Files -->
-    <link href="assets/css/MyStyles.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
     
     <!-- Custom Fonts -->
     <link href="assets/css/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -98,7 +98,7 @@
     </header>
  <hr>  
     <!-- Main Content -->
-   <div class="container">
+   <!-- <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <img id="about-profile" src="assets/media/profile-pic.jpg" width=20%>
@@ -106,31 +106,34 @@
             </div>
         </div>
     </div>
-    <hr>
-    <!-- INTERESTS IMAGES -->
-    <div class="container">
+    <hr> -->
+    
+     <div class="container">
+    <h2>Javascript Projects</h2>
         <div class="row">
-            <div class = "featured-img">
-                <h2 style="text-align: center">Interests</h2>
-                <div class="col-xs-4">
-                    <img class="featured-img" src="assets/media/study-img.jpg" width=100%>
-                    <span><a href="#ed">Reading</a></span>
-                </div>
-
-                <div class="col-xs-4">
-                  <img class = "featured-img" src="assets/media/interests.jpg" width=100/>
-                    <span>Skiing</span>
-                </div>
-
-                <div class="col-xs-4">
-                    <img class="featured-img" src="assets/media/business-300.png" width=100%>
-                    <span>Business</span>
-                </div>
+            <div class="col-lg-6 project">
+                <a target="_blank" href="color-game/color-game.html" class="container-project">
+                <h3 class="title-project">RGB Color Guessing Game</h3>
+                <video autoplay="" loop="" style="text-align: center">
+                    <source src="assets/media/color_guesser_web.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </a>
+                <p> This is a simple game that helps web designers learn their colors in rgb(x, y, z) format! I used to be dependent on a color picker tool when I was trying to find that perfect color. After playing this color game for 30 minutes, I don't need to use a color picker anymore! </p>
+                <p>I made this color guesser to get used to manipulating the DOM with vanilla javascript. This project also helped me get my feet wet with jQuery, and solidified my confidence with CSS. </p>
+            </div>
+            <div class="col-lg-6 project">
+                
+                
+                <a target="_blank" href="todo.html" class="container-project">
+                <h3 class="title-project">Success List</h3>
+                <img src="assets/todo_img_small.PNG" class="link">
+                </a>
+                <p> The best kind of ToDo list is the one that gets completed! I've made this minimalistic todo list so you can focus on the most important tasks each day.</p>
+                <p>I used jQuery and more advanced CSS attributes to animate the list. Fun project! </p>
             </div>
         </div>
     </div>
-    <hr>
-    
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -191,3 +194,27 @@
 </body>
 
 </html>
+
+<!-- INTERESTS IMAGES -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class = "featured-img">
+                <h2 style="text-align: center">Interests</h2>
+                <div class="col-xs-4">
+                    <img class="featured-img" src="assets/media/study-img.jpg" width=100%>
+                    <span><a href="#ed">Reading</a></span>
+                </div>
+
+                <div class="col-xs-4">
+                  <img class = "featured-img" src="assets/media/interests.jpg" width=100/>
+                    <span>Skiing</span>
+                </div>
+
+                <div class="col-xs-4">
+                    <img class="featured-img" src="assets/media/business-300.png" width=100%>
+                    <span>Business</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr> -->
