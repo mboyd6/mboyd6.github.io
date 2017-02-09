@@ -90,3 +90,7 @@ h2 {
 .link{
     cursor: pointer;
 }
+
+.site-heading {
+    margin-top: 150px;
+}
